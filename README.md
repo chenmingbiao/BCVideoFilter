@@ -16,7 +16,7 @@
 	// 初始化
    BCVideoFilter *videoFilter = [[BCVideoFilter alloc] initWithFrame:self.displayView.bounds videoInputUrl:url];
     // 设置显示层
-    [self.displayView addSubview: videoFilter.view];
+    [self.view addSubview: videoFilter.view];
     // 设置滤镜
     BCSepiaToneFilter *filter = [[BCSepiaToneFilter alloc] init];
     [videoFilter addFilter:filter];
