@@ -13,17 +13,17 @@
 ## 用法
 
 ```objc
-	// 初始化
-   BCVideoFilter *videoFilter = [[BCVideoFilter alloc] initWithFrame:self.view.bounds videoInputUrl:url];
-    // 设置显示层
-    [self.view addSubview: videoFilter.view];
-    // 设置滤镜
-    BCSepiaToneFilter *filter = [[BCSepiaToneFilter alloc] init];
-    [videoFilter addFilter:filter];
-    // 开始
-    [videoFilter processVideoWithBlockCompletionHandler:^(float progress, BOOL isFinish, NSError *error) {
-        ...
-    }];
+// 初始化
+BCVideoFilter *videoFilter = [[BCVideoFilter alloc] initWithFrame:self.view.bounds videoInputUrl:url];
+// 设置显示层
+[self.view addSubview: videoFilter.view];
+// 设置滤镜
+BCSepiaToneFilter *filter = [[BCSepiaToneFilter alloc] init];
+[videoFilter addFilter:filter];
+// 开始
+[videoFilter processVideoWithBlockCompletionHandler:^(float progress, BOOL isFinish, NSError *error) {
+    ...
+}];
 
 ```
 
