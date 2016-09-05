@@ -14,7 +14,7 @@
 
 ```objc
 	// 初始化
-   BCVideoFilter *videoFilter = [[BCVideoFilter alloc] initWithFrame:self.displayView.bounds videoInputUrl:url];
+   BCVideoFilter *videoFilter = [[BCVideoFilter alloc] initWithFrame:self.view.bounds videoInputUrl:url];
     // 设置显示层
     [self.view addSubview: videoFilter.view];
     // 设置滤镜
