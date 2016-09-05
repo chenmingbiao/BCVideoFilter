@@ -20,7 +20,7 @@
     // 设置滤镜
     BCSepiaToneFilter *filter = [[BCSepiaToneFilter alloc] init];
     [videoFilter addFilter:filter];
-    // 开始滤镜过滤
+    // 开始
     [videoFilter processVideoWithBlockCompletionHandler:^(float progress, BOOL isFinish, NSError *error) {
         ...
     }];
