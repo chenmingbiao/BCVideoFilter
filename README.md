@@ -8,7 +8,7 @@
 
 ## 截图
 
-<img src="shot.png" alt="img" width="240px">
+<img src="shot.png" alt="img" width="345px">
 
 ## 用法
 
