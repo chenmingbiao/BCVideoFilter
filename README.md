@@ -6,8 +6,13 @@
 
 基于 `CoreImage` 实现视频加滤镜。
 
-## 截图
+## 效果
 
+### 动图
+
+<img src="shot.gif" alt="img" width="280px">
+
+### 截图
 <img src="shot.png" alt="img" width="768px">
 
 ## 用法
